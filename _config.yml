@@ -6,38 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Xianglong Xu
+title: Currently Pursuing MSIS at the Pitt
+email: XIX110@pitt.edu
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +1 412-452-5278
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://github.com/Sean652039
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  Sean652039
+#stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: xianglong-xu-302621295
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,66 +50,174 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+    👋 Hi there! I'm **Xianglong** (Or my English name **Sean**) **Xu**, currently pursuing a Master's degree in Information Science at the University of Pittsburgh, with a focus on AI. My academic journey began at North China Electric Power University, where I earned a Bachelor's degree in Intelligent Science and Technology from the Computer Science department.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+    🧠 My expertise lies in several machine learning algorithms, and I'm proficient in programming languages such as Python and R. I thrive on collaboration and am known for being outgoing. Fluent in English (with a score of 8 in IELTS Speaking), I easily connect with people from diverse cultures, fostering open communication and effective teamwork.
+
+    ⚽ Outside the world of tech, I'm passionate about soccer. Beyond the excitement it brings, soccer has instilled in me a spirit of perseverance and resilience.
+
+    🌐 I'm always open to connecting with like-minded professionals, discussing AI, or exploring potential collaborations. Feel free to reach out to me via email at xix@pitt.edu or Sean65039@gmail.com. You can also connect with me directly on LinkedIn.
+   
 
 content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: University of Pittsburgh
+        sub_title: MS in Information Science 
+        caption: 08/2023-Graduating 05/2025
+        quote: >
+          (GPA: 3.88/4.0)
+        description: | # this will include new lines to allow paragraphs
+          My studies at the University of Pittsburgh not only expanded my knowledge but, more importantly, the diverse cultural environment enriched my perspectives, providing insights that extend beyond the confines of textbooks. Interacting with individuals from various cultural backgrounds not only allowed me to approach AI from different angles but also enhanced my collaborative skills. This multicultural exposure has been instrumental in shaping my holistic understanding of artificial intelligence.
+      - layout: top-left
+        title: North China Electric Power University
+        sub_title: BS in Intelligent Science and Technology 
+        caption: 09/2019-06/2023
+        quote: >
+          (GPA: 3.59/4.0)
+        description: | # this will include new lines to allow paragraphs
+          During my four years at North China Electric Power University, Intelligent Science and Technology, synonymous with the field of AI, became the focal point of my academic pursuits. Over this period, I not only acquired a profound understanding of crucial machine learning algorithms but also delved into the underlying mathematical principles, encompassing probability theory, linear algebra, and optimization theory.
+          This undergraduate journey not only laid a robust foundation for my subsequent pursuit of advanced studies in artificial intelligence but also honed my coding skills.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: LSTM-based text classification
+        link: https://github.com/Sean652039/NLP_Classification
+        link_text: GitHub
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  GitHub
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/Sean652039/NLP_Classification
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          12/2023—01/2024
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+          - Utilizing jieba segmentation and part-of-speech tagging for text processing. Accomplished data preprocessing and sequence conversion.
+          - Constructing a vocabulary using a statistical word frequency approach. Incorporating stop-word filtering to enhance the model's robustness.
+          - Implemented a text classification model using `PyTorch`, inheriting from the nn.Module class. The model incorporates an embedding layer (nn.Embedding), an LSTM layer (nn.LSTM), and a fully connected layer (nn.Linear). To prevent overfitting, a Dropout layer (nn.Dropout) is included. The model processes input sequences through forward propagation (forward method) to produce classification predictions.
+          - Trained using Tencent AI Lab's word embeddings, the model achieves a test set accuracy exceeding 95%.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Data Analysis for PPG Industries, Inc (ppg.com)
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          11/2023—12/2023
+        description: | # this will include new lines to allow paragraphs
+          - Employed `ggplot` for crafting insightful visualizations to elucidate complex relationships and input distributions.
+          - Utilized the `lm()` function for MLE modeling and rstanarm's `stan_lm()` for Bayesian modeling in both regression and classification tasks. Applied the `glmet` package to fit models with Lasso regularization techniques, enhancing robustness. Leveraged the `caret` package for training a variety of machine learning models, including Random Forest, Neural Network, SVM, and XGBoost, with a focus on model tuning for optimal performance.
+          - Employed a meticulous evaluation of diverse metrics to discern and select the best-performing models for both regression and classification tasks.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Implication of Password Management Systems
+        link: https://sean652039.github.io/Pitt_HIP_Passwords.io/
+        link_text: Demonstration of the project
+        additional_links:
+          - title:  Page for project 
+            icon: fab fa-github
+            url: https://sean652039.github.io/Pitt_HIP_Passwords.io/
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          11/2023—12/2023
+        description: | # this will include new lines to allow paragraphs
+          - Implemented a novel approach inspired by the "Google Effect" on memory to address potential challenges in emergency password recall within password management systems.
+          - Introduced a segmented password system, compelling users to input randomly selected segments during login, effectively boosting engagement and facilitating improved recall, especially in emergency scenarios.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: YOLO-Based Vehicle Detection
+        link: https://blog.csdn.net/qq_46684105/article/details/132132725?spm=1001.2014.3001.5501
+        link_text: Solved Issues (CN)
+        additional_links:
+          # - title:  
+          #   icon: 
+          #   url: 
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          03/2023—06/2023
+        description: | # this will include new lines to allow paragraphs
+          - Proposed a YOLOv7-based model for vehicle detection, trained & validated with UA-DETRAC dataset.
+          - Adopted a frame sampling strategy (2 frames for training, 10 frames for validation) to mitigate overfitting risks in a 25 fps video dataset. Innovatively included random test set folders in training to improve model adaptability and handle distribution differences.
+          - Successfully deployed the optimized model on Android, utilizing the NCNN open-source framework from GitHub. This ensures efficient and resource-friendly execution on mobile devices.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: The Influence of Dominant Response on Non-dominant Response (The Stroop Effect)
+        link: https://github.com/Sean652039/Stroop
+        link_text: GitHub
+        additional_links:
+          - title:  GitHub
+            icon: fab fa-github
+            url: https://github.com/Sean652039/Stroop
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          04/2021—05/2021
+        description: | # this will include new lines to allow paragraphs
+          - Study the Stroop effect, focusing on non-dominant vs. dominant responses' impact.
+          - Adapted Python's `Pygame` library for visualizing word colors and developed the experimental platform.
+          - Optimized code, reducing run time and improving code structure.     
+  - title: Corporate Learning Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+      - layout: left
+        title: Yunnan Gold Mining Group Co. LTD.
+        sub_title: Information Center Department
+        caption: 02/2022 (whole month)
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+          Revamped digital mine management with data-driven strategies, visualized safety data, and documented detailed maintenance records. Participated in a reform meeting for enhancing digital manufacturing.
+      - layout: left
+        title: Yunnan Gold Mining Group Co. LTD.
+        sub_title: Human Resources Department
+        caption: 08/2020 (whole month)
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Updated and maintained the employee database, analyzed HR data, and coordinated with departments for policy implementation. Supported internal training and communication initiatives.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      Apart from **studying**, my greatest passion lies in **exploring the unknown**. I love delving into **diverse cultures**, aspiring to travel far and wide, and engage as much as possible with the **local communities**. Along the way, I also indulge in **photography**, using the language of the lens to articulate my understanding of the world.
+      - Beijing
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+      <img src="/images/Beijing.jpg" alt="Trees" style="width: 70%; height: auto;">
+      - Lake Ontario
+
+
+      <img src="/images/Lake_Ontario.jpg" alt="Trees" style="width: 70%; height: auto;">
+      - Edinburgh
+
+
+      <img src="/images/Edinburgh.jpg" alt="Trees" style="width: 70%; height: auto;">
+
 
 # Footer
 footer_show_references: true
