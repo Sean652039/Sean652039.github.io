@@ -208,15 +208,15 @@ content:
       - Beijing
 
 
-      <img src="/blob/master/images/Beijing.JPG" alt="photo" style="width: 70%; height: auto;">
+      - Images ![](/images/Beijing.JPG "Beijing")
       - Lake Ontario
 
 
-      <img src="/blob/master/images/Lake_Ontario.JPG" alt="photo" style="width: 70%; height: auto;">
+      - Images ![](/images/Lake_Ontario.JPG "Ontario")
       - Edinburgh
 
 
-      <img src="/blob/master/images/Edinburgh.JPG" alt="photo" style="width: 70%; height: auto;">
+      - Images ![](/images/Edinburgh.JPG "Edin")
 
 
 # Footer
