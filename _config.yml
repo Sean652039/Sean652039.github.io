@@ -50,7 +50,7 @@ linkedin_username: xianglong-xu-302621295
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/Beijing.jpg
+about_profile_image: https://github.com/Sean652039/Sean652039.github.io/images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
     👋 Hi there! I'm **Xianglong** (Or my English name **Sean**) **Xu**, currently pursuing a Master's degree in Information Science at the University of Pittsburgh, with a focus on AI. My academic journey began at North China Electric Power University, where I earned a Bachelor's degree in Intelligent Science and Technology from the Computer Science department.
 
@@ -208,15 +208,15 @@ content:
       - Beijing
 
 
-      <img src="/images/Beijing.jpg" alt="Trees" style="width: 70%; height: auto;">
+      <img src="https://github.com/Sean652039/Sean652039.github.io/images/Beijing.jpg" alt="photo" style="width: 70%; height: auto;">
       - Lake Ontario
 
 
-      <img src="/images/Lake_Ontario.jpg" alt="Trees" style="width: 70%; height: auto;">
+      <img src="https://github.com/Sean652039/Sean652039.github.io/images/Lake_Ontario.jpg" alt="photo" style="width: 70%; height: auto;">
       - Edinburgh
 
 
-      <img src="/images/Edinburgh.jpg" alt="Trees" style="width: 70%; height: auto;">
+      <img src="https://github.com/Sean652039/Sean652039.github.io/images/Edinburgh.jpg" alt="photo" style="width: 70%; height: auto;">
 
 
 # Footer
