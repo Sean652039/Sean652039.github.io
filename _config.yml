@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Xianglong Xu
 title: Currently Pursuing MSIS at the Pitt
-email: XIX110@pitt.edu
+email: XIX110@PITT.EDU
 # email_title: Email (Email title override)
 phone: +1 412-452-5278
 # phone_title: Phone (Phone title override)
@@ -52,13 +52,13 @@ linkedin_username: xianglongxu
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.PNG
 about_content: | # this will include new lines to allow paragraphs
-    👋 Hi there! I'm **Xianglong** (Or my English name **Sean**) **Xu**, currently pursuing a Master's degree in Information Science at the University of Pittsburgh, with a focus on AI. My academic journey began at North China Electric Power University, where I earned a Bachelor's degree in Intelligent Science and Technology from the Computer Science department.
+    👋 Hi there! I'm **Xianglong Xu**, currently pursuing a Master's degree in Information Science at the University of Pittsburgh, with a focus on AI. My academic journey began at North China Electric Power University, where I earned a Bachelor's degree in Computer Science - Specialization in AI.
 
     🧠 My expertise lies in several machine learning algorithms, and I'm proficient in programming languages such as Python and R. I thrive on collaboration and am known for being outgoing. Fluent in English (with a score of 8 in IELTS Speaking), I easily connect with people from diverse cultures, fostering open communication and effective teamwork.
 
     ⚽ Outside the world of tech, I'm passionate about soccer. Beyond the excitement it brings, soccer has instilled in me a spirit of perseverance and resilience.
 
-    🌐 I'm always open to connecting with like-minded professionals, discussing AI, or exploring potential collaborations. Feel free to reach out to me via email at xix@pitt.edu or Sean65039@gmail.com. You can also connect with me directly on LinkedIn.
+    🌐 I'm always open to connecting with like-minded professionals, discussing AI, or exploring potential collaborations. Feel free to reach out to me via email at xix110@pitt.edu or Sean65039@gmail.com. You can also connect with me directly on LinkedIn.
    
 
 content:
@@ -68,29 +68,102 @@ content:
       - layout: top-left
         title: University of Pittsburgh
         sub_title: MS in Information Science 
-        caption: 08/2023-Graduating 05/2025
+        caption: August 2023 – May 2025
         quote: >
-          (GPA: 3.88/4.0)
+          (GPA: 3.95/4.0)
         description: | # this will include new lines to allow paragraphs
           My studies at the University of Pittsburgh not only expanded my knowledge but, more importantly, the diverse cultural environment enriched my perspectives, providing insights that extend beyond the confines of textbooks. Interacting with individuals from various cultural backgrounds not only allowed me to approach AI from different angles but also enhanced my collaborative skills. This multicultural exposure has been instrumental in shaping my holistic understanding of artificial intelligence.
       - layout: top-left
         title: North China Electric Power University
-        sub_title: BS in Intelligent Science and Technology 
-        caption: 09/2019-06/2023
+        sub_title: BS in Computer Science - Specialization in AI 
+        caption: September 2019 – June 2023
         quote: >
           (GPA: 3.59/4.0)
         description: | # this will include new lines to allow paragraphs
           During my four years at North China Electric Power University, Intelligent Science and Technology, synonymous with the field of AI, became the focal point of my academic pursuits. Over this period, I not only acquired a profound understanding of crucial machine learning algorithms but also delved into the underlying mathematical principles, encompassing probability theory, linear algebra, and optimization theory.
           This undergraduate journey not only laid a robust foundation for my subsequent pursuit of advanced studies in artificial intelligence but also honed my coding skills.
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Vosyn Inc.
+        sub_title: AI Software Developer Intern
+        caption: May 2024 – August 2024, Chicago, Illinois(Remote)
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Led end-to-end development of a speaker diarization system with significantly improved performance:
+            * Achieved 10x faster execution compared to pyannote clustering by implementing a novel Chinese Restaurant Process-based approach.
+            * Integrated an end-to-end Speaker Change Detection model based on research by Herv ́e Bredin and Antoine Laurent. 
+            * Developed custom evaluation scripts using AMI Meeting Corpus to calculate Diarization Error Rate (DER).
+          - Enhanced the diarization system robustness and effciency through multiple optimizations:
+            * Implemented WebRTC’s VAD with ring bu↵er for improved speech detection accuracy.
+            * Optimized memory usage by processing audio in-memory using io.BytesIO, eliminating disk I/O overhead. 
+            * Engineered robust audio processing pipeline to handle non-standard audio files.
+          - Conducted comprehensive research and documentation for speech technology advancement:
+            * Gained expertise in xTTS model architecture and principles.
+            * Collected and analyzed research papers to keep team updated on latest methodologies.
+            * Created and maintained detailed technical documentation covering API usage, system design, and performance metrics.
+      - layout: left
+        title: Yunnan Gold Mining Group Co. LTD.
+        sub_title: Information Engineer Intern
+        caption: February 2022, August 2022, Kunming, Yunnan(Onsite)
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Supported digital mine management initiatives by assisting with data visualization for safety monitoring, maintaining digital maintenance records, and participating in digital manufacturing reform meetings.
+          - Assisted HR operations by helping maintain employee database, conducting basic HR data analysis, and supporting departmental communication and training programs.
+        
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
+        title: Music Generation with Deep Learning
+        # link: https://github.com/Sean652039/NLP_Classification
+        # link_text: GitHub
+        additional_links:
+          - title:  GitHub
+            icon: fab fa-github
+            url: https://github.com/Sean652039/Diffusion_Model_for_Generating_Music
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          September 2024 – December 2024
+        description: | # this will include new lines to allow paragraphs
+          - Engineered a dual-model music generation system integrating Stable Di↵usion for roll plot generation from MIDI files and RBM for refining and smoothing musical outputs. The combined approach significantly improved performance, achieving a CLAP score of 0.9863, the highest among tested models, and reducing FAD to 13.3207, compared to the RNN baseline’s CLAP score of 0.9723 and FAD of 6.6732.
+          - Developed an advanced preprocessing pipeline for roll plots, incorporating temporal truncation and pitch range adjustments to facilitate effcient processing of musical data in a 512x768 pixel format, optimizing data compatibility with model architectures.
+          - Created custom visual encoding strategies leveraging RGB and grayscale mappings to optimize information representation, ensuring seamless integration with Stable Di↵usion and enhancing interpretability.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: AI Snake
+        # link: https://github.com/Sean652039/NLP_Classification
+        # link_text: GitHub
+        additional_links:
+          - title:  GitHub
+            icon: fab fa-github
+            url: https://github.com/Sean652039/snake-ai
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          March 2024 – May 2024
+        description: | # this will include new lines to allow paragraphs
+          - Developed and implemented a deep reinforcement learning AI agent using MLP & CNN architectures for the ”Snake” game, resulting in a 5% improvement in average game performance.
+          - Engineered a sophisticated Markov chain model to analyze game states, incorporating multiple parameters including spatial positioning, snake metrics, directional vectors, and body configuration.
+          - Innovated a novel scoring mechanism inspired by Go game principles, developing a recursive territory calculation algorithm to optimize snake movement patterns.
+          - Designed and implemented a dynamic penalty system based on space utilization analysis, successfully promoting more effcient snake navigation strategies.
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: LSTM-based text classification
-        link: https://github.com/Sean652039/NLP_Classification
-        link_text: GitHub
+        # link: https://github.com/Sean652039/NLP_Classification
+        # link_text: GitHub
         additional_links:
           - title:  GitHub
             icon: fab fa-github
@@ -99,11 +172,11 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          12/2023—01/2024
+          December 2023 – January 2024
         description: | # this will include new lines to allow paragraphs
           - Utilizing jieba segmentation and part-of-speech tagging for text processing. Accomplished data preprocessing and sequence conversion.
           - Constructing a vocabulary using a statistical word frequency approach. Incorporating stop-word filtering to enhance the model's robustness.
-          - Implemented a text classification model using `PyTorch`, inheriting from the nn.Module class. The model incorporates an embedding layer (nn.Embedding), an LSTM layer (nn.LSTM), and a fully connected layer (nn.Linear). To prevent overfitting, a Dropout layer (nn.Dropout) is included. The model processes input sequences through forward propagation (forward method) to produce classification predictions.
+          - Implemented a text classification model using PyTorch, inheriting from the nn.Module class. The model incorporates an embedding layer (nn.Embedding), an LSTM layer (nn.LSTM), and a fully connected layer (nn.Linear). To prevent overfitting, a Dropout layer (nn.Dropout) is included. The model processes input sequences through forward propagation (forward method) to produce classification predictions.
           - Trained using Tencent AI Lab's word embeddings, the model achieves a test set accuracy exceeding 95%.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -119,10 +192,10 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          11/2023—12/2023
+          November 2023 – December 2023
         description: | # this will include new lines to allow paragraphs
-          - Employed `ggplot` for crafting insightful visualizations to elucidate complex relationships and input distributions.
-          - Utilized the `lm()` function for MLE modeling and rstanarm's `stan_lm()` for Bayesian modeling in both regression and classification tasks. Applied the `glmet` package to fit models with Lasso regularization techniques, enhancing robustness. Leveraged the `caret` package for training a variety of machine learning models, including Random Forest, Neural Network, SVM, and XGBoost, with a focus on model tuning for optimal performance.
+          - Employed ggplot for crafting insightful visualizations to elucidate complex relationships and input distributions.
+          - Utilized the lm() function for MLE modeling and rstanarm's stan_lm() for Bayesian modeling in both regression and classification tasks. Applied the glmet package to fit models with Lasso regularization techniques, enhancing robustness. Leveraged the caret package for training a variety of machine learning models, including Random Forest, Neural Network, SVM, and XGBoost, with a focus on model tuning for optimal performance.
           - Employed a meticulous evaluation of diverse metrics to discern and select the best-performing models for both regression and classification tasks.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -131,14 +204,14 @@ content:
         link: https://sean652039.github.io/Pitt_HIP_Passwords.io/
         link_text: Demonstration of the project
         additional_links:
-          - title:  Page for project 
-            icon: fab fa-github
-            url: https://sean652039.github.io/Pitt_HIP_Passwords.io/
+          # - title:  Page for project 
+          #   icon: fab fa-github
+          #   url: https://sean652039.github.io/Pitt_HIP_Passwords.io/
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          11/2023—12/2023
+          November 2023 – December 2023
         description: | # this will include new lines to allow paragraphs
           - Implemented a novel approach inspired by the "Google Effect" on memory to address potential challenges in emergency password recall within password management systems.
           - Introduced a segmented password system, compelling users to input randomly selected segments during login, effectively boosting engagement and facilitating improved recall, especially in emergency scenarios.
@@ -156,61 +229,43 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          03/2023—06/2023
+          March 2023 – June 2023
         description: | # this will include new lines to allow paragraphs
           - Proposed a YOLOv7-based model for vehicle detection, trained & validated with UA-DETRAC dataset.
           - Adopted a frame sampling strategy (2 frames for training, 10 frames for validation) to mitigate overfitting risks in a 25 fps video dataset. Innovatively included random test set folders in training to improve model adaptability and handle distribution differences.
           - Successfully deployed the optimized model on Android, utilizing the NCNN open-source framework from GitHub. This ensures efficient and resource-friendly execution on mobile devices.
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: The Influence of Dominant Response on Non-dominant Response (The Stroop Effect)
-        link: https://github.com/Sean652039/Stroop
-        link_text: GitHub
-        additional_links:
-          - title:  GitHub
-            icon: fab fa-github
-            url: https://github.com/Sean652039/Stroop
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          04/2021—05/2021
-        description: | # this will include new lines to allow paragraphs
-          - Study the Stroop effect, focusing on non-dominant vs. dominant responses' impact.
-          - Adapted Python's `Pygame` library for visualizing word colors and developed the experimental platform.
-          - Optimized code, reducing run time and improving code structure.     
-  - title: Corporate Learning Experience
-    layout: list
-    content:
-      - layout: left
-        title: Yunnan Gold Mining Group Co. LTD.
-        sub_title: Information Center Department
-        caption: 02/2022 (whole month)
-        # link: Link to company (optional)
-        # quote: >
-        #   Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Revamped digital mine management with data-driven strategies, visualized safety data, and documented detailed maintenance records. Participated in a reform meeting for enhancing digital manufacturing.
-      - layout: left
-        title: Yunnan Gold Mining Group Co. LTD.
-        sub_title: Human Resources Department
-        caption: 08/2020 (whole month)
-        # link: Link to company (optional)
-        # quote: >
-        #   Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Updated and maintained the employee database, analyzed HR data, and coordinated with departments for policy implementation. Supported internal training and communication initiatives.
+      # - layout: left
+      #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
+      #                 # other value (or no value) means no border will be displayed
+      #   title: The Influence of Dominant Response on Non-dominant Response (The Stroop Effect)
+      #   link: https://github.com/Sean652039/Stroop
+      #   link_text: GitHub
+      #   additional_links:
+      #     - title:  GitHub
+      #       icon: fab fa-github
+      #       url: https://github.com/Sean652039/Stroop
+      #   #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #   #     icon: fab fa-github
+      #   #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #   quote: >
+      #     04/2021—05/2021
+      #   description: | # this will include new lines to allow paragraphs
+      #     - Study the Stroop effect, focusing on non-dominant vs. dominant responses' impact.
+      #     - Adapted Python's `Pygame` library for visualizing word colors and developed the experimental platform.
+      #     - Optimized code, reducing run time and improving code structure.     
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Apart from **studying**, my greatest passion lies in **exploring the unknown**. I love delving into **diverse cultures**, aspiring to travel far and wide, and engage as much as possible with the **local communities**. Along the way, I also indulge in **photography**, using the language of the lens to articulate my understanding of the world.
-      - Beijing
-      ![](/images/Beijing.JPG "Beijing")
-      - Lake Ontario
-      ![](/images/Lake_Ontario.JPG "Ontario")
-      - Edinburgh
-      ![](/images/Edinburgh.JPG "Edin")
+      ** Download My Resume:
+      [Click here to download my resume](https://github.com/Sean652039/Sean652039.github.io/blob/master/images/Xianglong_Xu_Resume.pdf)
+
+      Apart from studying, my greatest passion lies in exploring the unknown. I love delving into diverse cultures, aspiring to travel far and wide, and engage as much as possible with the local communities. Along the way, I also indulge in photography, using the language of the lens to articulate my understanding of the world.
+      ** The statue of liberty
+      ![](/images/NY.jpg "New York")
+      ** Quebec City
+      ![](/images/Quebec.jpg "Quebec")
+      ** Jackson Hole
+      ![](/images/Jackson.jpeg "Jackson Hole")
 
 
 # Footer
