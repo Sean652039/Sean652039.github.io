@@ -253,18 +253,23 @@ content:
       #     - Study the Stroop effect, focusing on non-dominant vs. dominant responses' impact.
       #     - Adapted Python's `Pygame` library for visualizing word colors and developed the experimental platform.
       #     - Optimized code, reducing run time and improving code structure.     
+  - title: Resume
+    layout: list
+    content: 
+      - layout: text
+        title: Download Resume   
+        link: https://github.com/Sean652039/Sean652039.github.io/blob/master/images/Xianglong_Xu_Resume.pdf 
+        link_text: Click to Download Resume 
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      ** Download My Resume:
-      [Click here to download my resume](https://github.com/Sean652039/Sean652039.github.io/blob/master/images/Xianglong_Xu_Resume.pdf)
-
       Apart from studying, my greatest passion lies in exploring the unknown. I love delving into diverse cultures, aspiring to travel far and wide, and engage as much as possible with the local communities. Along the way, I also indulge in photography, using the language of the lens to articulate my understanding of the world.
-      ** The statue of liberty
+      **The statue of liberty
       ![](/images/NY.jpg "New York")
-      ** Quebec City
+      **Quebec City
       ![](/images/Quebec.jpg "Quebec")
-      ** Jackson Hole
+      **Jackson Hole
       ![](/images/Jackson.jpeg "Jackson Hole")
 
 
