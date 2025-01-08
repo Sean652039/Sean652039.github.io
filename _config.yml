@@ -98,7 +98,7 @@ content:
             * Integrated an end-to-end Speaker Change Detection model based on research by Herv ́e Bredin and Antoine Laurent. 
             * Developed custom evaluation scripts using AMI Meeting Corpus to calculate Diarization Error Rate (DER).
           - Enhanced the diarization system robustness and effciency through multiple optimizations:
-            * Implemented WebRTC’s VAD with ring bu↵er for improved speech detection accuracy.
+            * Implemented WebRTC’s VAD with ring buffer for improved speech detection accuracy.
             * Optimized memory usage by processing audio in-memory using io.BytesIO, eliminating disk I/O overhead. 
             * Engineered robust audio processing pipeline to handle non-standard audio files.
           - Conducted comprehensive research and documentation for speech technology advancement:
@@ -258,7 +258,7 @@ content:
     content: 
       - layout: text
         title: Download Resume   
-        link: https://github.com/Sean652039/Sean652039.github.io/raw/main/images/Xianglong_Xu_Resume.pdf 
+        link: https://github.com/Sean652039/Sean652039.github.io/raw/master/images/Xianglong_Xu_Resume.pdf 
         link_text: Click to Download Resume 
 
   - title: A Little More About Me
