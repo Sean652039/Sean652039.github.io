@@ -95,7 +95,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Led end-to-end development of a speaker diarization system with significantly improved performance:
             * Achieved 10x faster execution compared to pyannote clustering by implementing a novel Chinese Restaurant Process-based approach.
-            * Integrated an end-to-end Speaker Change Detection model based on research by Herv ́e Bredin and Antoine Laurent. 
+            * Integrated an end-to-end Speaker Change Detection model based on research by Hervé Bredin and Antoine Laurent. 
             * Developed custom evaluation scripts using AMI Meeting Corpus to calculate Diarization Error Rate (DER).
           - Enhanced the diarization system robustness and effciency through multiple optimizations:
             * Implemented WebRTC’s VAD with ring buffer for improved speech detection accuracy.
@@ -135,9 +135,9 @@ content:
         quote: >
           September 2024 – December 2024
         description: | # this will include new lines to allow paragraphs
-          - Engineered a dual-model music generation system integrating Stable Di↵usion for roll plot generation from MIDI files and RBM for refining and smoothing musical outputs. The combined approach significantly improved performance, achieving a CLAP score of 0.9863, the highest among tested models, and reducing FAD to 13.3207, compared to the RNN baseline’s CLAP score of 0.9723 and FAD of 6.6732.
+          - Engineered a dual-model music generation system integrating Stable Diffusion for roll plot generation from MIDI files and RBM for refining and smoothing musical outputs. The combined approach significantly improved performance, achieving a CLAP score of 0.9863, the highest among tested models, and reducing FAD to 13.3207, compared to the RNN baseline’s CLAP score of 0.9723 and FAD of 6.6732.
           - Developed an advanced preprocessing pipeline for roll plots, incorporating temporal truncation and pitch range adjustments to facilitate effcient processing of musical data in a 512x768 pixel format, optimizing data compatibility with model architectures.
-          - Created custom visual encoding strategies leveraging RGB and grayscale mappings to optimize information representation, ensuring seamless integration with Stable Di↵usion and enhancing interpretability.
+          - Created custom visual encoding strategies leveraging RGB and grayscale mappings to optimize information representation, ensuring seamless integration with Stable Diffusion and enhancing interpretability.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -265,11 +265,11 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Apart from studying, my greatest passion lies in exploring the unknown. I love delving into diverse cultures, aspiring to travel far and wide, and engage as much as possible with the local communities. Along the way, I also indulge in photography, using the language of the lens to articulate my understanding of the world.
-      ## The statue of liberty
+      # The statue of liberty
       ![](/images/NY.jpg "New York")
-      ## Quebec City
+      # Quebec City
       ![](/images/Quebec.jpg "Quebec")
-      ## Jackson Hole
+      # Jackson Hole
       ![](/images/Jackson.jpeg "Jackson Hole")
 
 
