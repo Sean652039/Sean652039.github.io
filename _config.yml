@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Xianglong Xu
-title: Currently Pursuing MSIS at the Pitt
-email: XIX110@PITT.EDU
+# title: Currently Pursuing MSIS at the Pitt
+email: sean652039@gmail.com
 # email_title: Email (Email title override)
 phone: +1 412-452-5278
 # phone_title: Phone (Phone title override)
@@ -93,18 +93,10 @@ content:
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          - Led end-to-end development of a speaker diarization system with significantly improved performance:
-            * Achieved 10x faster execution compared to pyannote clustering by implementing a novel Chinese Restaurant Process-based approach.
-            * Integrated an end-to-end Speaker Change Detection model based on research by Hervé Bredin and Antoine Laurent. 
-            * Developed custom evaluation scripts using AMI Meeting Corpus to calculate Diarization Error Rate (DER).
-          - Enhanced the diarization system robustness and effciency through multiple optimizations:
-            * Implemented WebRTC’s VAD with ring buffer for improved speech detection accuracy.
-            * Optimized memory usage by processing audio in-memory using io.BytesIO, eliminating disk I/O overhead. 
-            * Engineered robust audio processing pipeline to handle non-standard audio files.
-          - Conducted comprehensive research and documentation for speech technology advancement:
-            * Gained expertise in xTTS model architecture and principles.
-            * Collected and analyzed research papers to keep team updated on latest methodologies.
-            * Created and maintained detailed technical documentation covering API usage, system design, and performance metrics.
+          - Designed and implemented an end-to-end Python-based Speaker Diarization System to gradually replace the pyannote library due to its long runtime, enabling faster identification of multiple speakers’ timelines in audio.
+          - Implemented a Chinese Restaurant Process-based approach in the clustering, achieving 10x faster execution time than pyannote, and trained a Speaker Change Detection model, enabling more accurate speaker timelines.
+          - Integrated WebRTC’s Voice Activity Detection with a ring buffer to reduce detection errors by considering contextual frames and employed temporary files with io.BytesIO for large audio files to minimize memory usage.
+          - Developed evaluation using the AMI Meeting Corpus datasets to calculate Diarization Error Rate, providing a metric for developers to assess the improvements made to the system, enabling continuous optimization.
       - layout: left
         title: Yunnan Gold Mining Group Co. LTD.
         sub_title: Information Engineer Intern
@@ -113,8 +105,9 @@ content:
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          - Supported digital mine management initiatives by assisting with data visualization for safety monitoring, maintaining digital maintenance records, and participating in digital manufacturing reform meetings.
-          - Assisted HR operations by helping maintain employee database, conducting basic HR data analysis, and supporting departmental communication and training programs.
+          - Implemented a Flask and SQLite-based employee data management web application for internal HR operations.
+          - Designed relational tables to meet HR requirements by establishing relationships among employees, departments, and positions, minimizing redundancy and accommodating future needs without altering core structures.
+          - Created a visualizations dashboard leveraging Chart.js, allowing users to view real-time data, including the number of employees in each department and position distribution, with detailed information displayed on hover.
         
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -135,9 +128,11 @@ content:
         quote: >
           September 2024 – December 2024
         description: | # this will include new lines to allow paragraphs
-          - Engineered a dual-model music generation system integrating Stable Diffusion for roll plot generation from MIDI files and RBM for refining and smoothing musical outputs. The combined approach significantly improved performance, achieving a CLAP score of 0.9863, the highest among tested models, and reducing FAD to 13.3207, compared to the RNN baseline’s CLAP score of 0.9723 and FAD of 6.6732.
-          - Developed an advanced preprocessing pipeline for roll plots, incorporating temporal truncation and pitch range adjustments to facilitate effcient processing of musical data in a 512x768 pixel format, optimizing data compatibility with model architectures.
-          - Created custom visual encoding strategies leveraging RGB and grayscale mappings to optimize information representation, ensuring seamless integration with Stable Diffusion and enhancing interpretability.
+          - Designed and implemented a dual-model music generation system that leverages Stable Diffusion and Restricted Boltzmann Machines for generating roll plots from music MIDI files, which are then converted to MIDI files.
+          - Preprocessed plots for training by truncating the x-axis representing time, expanding the y-axis (music pitch range) by replicating pitch rows to match input dimensions, and applying color-coding to increase dimensions.
+          - Designed a Stable Diffusion training pipeline using a UNet2DModel with adaptive pixel-wise weighted loss, dynamic noise scheduling, and checkpoint management, with architecture aligned to the preprocessing of plots.
+          - Designed an RBM for denoising, treating each pixel as a visible node with a hidden layer of half the visible nodes, while incorporating adaptive noise generation, multi-type noise injection, and contrastive divergence training.
+          - Engineered an image-to-MIDI conversion pipeline that transforms generated plots into binary representations through adaptive thresholding, translating pixel data into MIDI note sequences with time and pitch mapping.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -154,30 +149,29 @@ content:
         quote: >
           March 2024 – May 2024
         description: | # this will include new lines to allow paragraphs
-          - Developed and implemented a deep reinforcement learning AI agent using MLP & CNN architectures for the ”Snake” game, resulting in a 5% improvement in average game performance.
-          - Engineered a sophisticated Markov chain model to analyze game states, incorporating multiple parameters including spatial positioning, snake metrics, directional vectors, and body configuration.
-          - Innovated a novel scoring mechanism inspired by Go game principles, developing a recursive territory calculation algorithm to optimize snake movement patterns.
-          - Designed and implemented a dynamic penalty system based on space utilization analysis, successfully promoting more effcient snake navigation strategies.
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: LSTM-based text classification
-        # link: https://github.com/Sean652039/NLP_Classification
-        # link_text: GitHub
-        additional_links:
-          - title:  GitHub
-            icon: fab fa-github
-            url: https://github.com/Sean652039/NLP_Classification
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          December 2023 – January 2024
-        description: | # this will include new lines to allow paragraphs
-          - Utilizing jieba segmentation and part-of-speech tagging for text processing. Accomplished data preprocessing and sequence conversion.
-          - Constructing a vocabulary using a statistical word frequency approach. Incorporating stop-word filtering to enhance the model's robustness.
-          - Implemented a text classification model using PyTorch, inheriting from the nn.Module class. The model incorporates an embedding layer (nn.Embedding), an LSTM layer (nn.LSTM), and a fully connected layer (nn.Linear). To prevent overfitting, a Dropout layer (nn.Dropout) is included. The model processes input sequences through forward propagation (forward method) to produce classification predictions.
-          - Trained using Tencent AI Lab's word embeddings, the model achieves a test set accuracy exceeding 95%.
+          - Optimized a reinforcement learning AI agent for the ’Snake’ game using Proximal Policy Optimization with MLP and CNN architectures, enhancing the reward-punishment mechanism and achieving a 5% score improvement.
+          - Engineered a Markov chain model to analyze the game process by treating each time step as a Markov state, suggesting that compressing the snake’s body to reduce the space it occupies is one potential optimization.
+          - Developed a recursive territory calculation algorithm inspired by Go game rules to compute the empty cells enclosed by the snake’s body, using the number of enclosed cells as a penalty criterion to train the agent.
+      # - layout: left
+      #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
+      #                 # other value (or no value) means no border will be displayed
+      #   title: LSTM-based text classification
+      #   # link: https://github.com/Sean652039/NLP_Classification
+      #   # link_text: GitHub
+      #   additional_links:
+      #     - title:  GitHub
+      #       icon: fab fa-github
+      #       url: https://github.com/Sean652039/NLP_Classification
+      #   #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #   #     icon: fab fa-github
+      #   #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #   quote: >
+      #     December 2023 – January 2024
+      #   description: | # this will include new lines to allow paragraphs
+      #     - Utilizing jieba segmentation and part-of-speech tagging for text processing. Accomplished data preprocessing and sequence conversion.
+      #     - Constructing a vocabulary using a statistical word frequency approach. Incorporating stop-word filtering to enhance the model's robustness.
+      #     - Implemented a text classification model using PyTorch, inheriting from the nn.Module class. The model incorporates an embedding layer (nn.Embedding), an LSTM layer (nn.LSTM), and a fully connected layer (nn.Linear). To prevent overfitting, a Dropout layer (nn.Dropout) is included. The model processes input sequences through forward propagation (forward method) to produce classification predictions.
+      #     - Trained using Tencent AI Lab's word embeddings, the model achieves a test set accuracy exceeding 95%.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
