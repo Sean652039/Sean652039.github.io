@@ -7,6 +7,7 @@ version: 2
 
 # Personal info
 name: Xianglong Xu
+resume_url: https://github.com/Sean652039/Sean652039.github.io/raw/master/images/Xianglong_Xu_Resume.pdf 
 # title: Currently Pursuing MSIS at the Pitt
 email: sean652039@gmail.com
 # email_title: Email (Email title override)
@@ -188,9 +189,12 @@ content:
         quote: >
           November 2023 – December 2023
         description: | # this will include new lines to allow paragraphs
-          - Employed ggplot for crafting insightful visualizations to elucidate complex relationships and input distributions.
-          - Utilized the lm() function for MLE modeling and rstanarm's stan_lm() for Bayesian modeling in both regression and classification tasks. Applied the glmet package to fit models with Lasso regularization techniques, enhancing robustness. Leveraged the caret package for training a variety of machine learning models, including Random Forest, Neural Network, SVM, and XGBoost, with a focus on model tuning for optimal performance.
-          - Employed a meticulous evaluation of diverse metrics to discern and select the best-performing models for both regression and classification tasks.
+          - Conducted data analysis for PPG Industries, Inc., applying statistical methods to learn patterns associated with top selling paints and colors.
+          - Employed distributions of variables visualizations using ggplot2 to illustrate relationships between continuous and categorical variables, continuous outputs with respect to continuous inputs, and the binary outcome with respect to both continuous and categorical inputs.
+          - Build baseline linear regression models with 10 patterns using the lm() function in both regression and classification tasks. While using same patterns to build Bayesian models with rstanarm's stan_lm() function to consider the uncertainty on the residual error.
+          - Tuned the models by resampling the data and regularizing regression with elastic net using the glmnet package.
+          - Constructed Random Forest, Neural Network, SVM, and XGBoost models with caret package to compare with the baseline models.
+          - Evaluated models using ROC curves, AUC, and confusion matrices to identify the best model. Interpreted model outputs to determine key variables for predicting paint properties and popularity, and identified the most and least predictable paint characteristics.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -207,8 +211,8 @@ content:
         quote: >
           November 2023 – December 2023
         description: | # this will include new lines to allow paragraphs
-          - Implemented a novel approach inspired by the "Google Effect" on memory to address potential challenges in emergency password recall within password management systems.
-          - Introduced a segmented password system, compelling users to input randomly selected segments during login, effectively boosting engagement and facilitating improved recall, especially in emergency scenarios.
+          - Proposed a approach inspired by the "Google Effect" on memory to address potential challenges in emergency password recall within password management systems.
+          - Introduced a segmented password system, compelling users to input randomly selected segments during login, boosting engagement to help users remember passwords while using password management systems.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -225,9 +229,10 @@ content:
         quote: >
           March 2023 – June 2023
         description: | # this will include new lines to allow paragraphs
-          - Proposed a YOLOv7-based model for vehicle detection, trained & validated with UA-DETRAC dataset.
-          - Adopted a frame sampling strategy (2 frames for training, 10 frames for validation) to mitigate overfitting risks in a 25 fps video dataset. Innovatively included random test set folders in training to improve model adaptability and handle distribution differences.
-          - Successfully deployed the optimized model on Android, utilizing the NCNN open-source framework from GitHub. This ensures efficient and resource-friendly execution on mobile devices.
+          - Constructed a YOLOv7-based model for vehicle detection on the Android platform.
+          - Trained & validated with UA-DETRAC dataset and adopted a frame sampling strategy (2 frames for training, 10 frames for validation) to mitigate overfitting risks in a 25 fps video dataset. 
+          - Modified dataset loading method to include random test set folders during training, increasing dataset diversity to prevent overfitting.
+          - Deployed the YOLOv7-tiny model on Android using the NCNN open-source framework from GitHub.
       # - layout: left
       #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
       #                 # other value (or no value) means no border will be displayed
@@ -247,13 +252,13 @@ content:
       #     - Study the Stroop effect, focusing on non-dominant vs. dominant responses' impact.
       #     - Adapted Python's `Pygame` library for visualizing word colors and developed the experimental platform.
       #     - Optimized code, reducing run time and improving code structure.     
-  - title: Resume
-    layout: list
-    content: 
-      - layout: text
-        title: Download Resume   
-        link: https://github.com/Sean652039/Sean652039.github.io/raw/master/images/Xianglong_Xu_Resume.pdf 
-        link_text: Click to Download Resume 
+  # - title: Resume
+  #   layout: list
+  #   content: 
+  #     - layout: text
+  #       title: Download Resume   
+  #       link: https://github.com/Sean652039/Sean652039.github.io/raw/master/images/Xianglong_Xu_Resume.pdf 
+  #       link_text: Click to Download Resume 
 
   - title: A Little More About Me
     layout: text
