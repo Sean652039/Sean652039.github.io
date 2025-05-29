@@ -53,14 +53,16 @@ linkedin_username: xianglongxu
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.PNG
 about_content: | # this will include new lines to allow paragraphs
-    👋 Hi there! I'm **Xianglong Xu**, currently pursuing a Master's degree in Information Science at the University of Pittsburgh, with a focus on AI. My academic journey began at North China Electric Power University, where I earned a Bachelor's degree in Computer Science - Specialization in AI.
+    👋 Hi there! I'm Xianglong Xu, a recent graduate with a Master of Science in Information Science from the University of Pittsburgh, where I specialized in Artificial Intelligence. I hold a Bachelor's degree in Computer Science with a focus on AI from North China Electric Power University.
 
-    🧠 My expertise lies in several machine learning algorithms, and I'm proficient in programming languages such as Python and R. I thrive on collaboration and am known for being outgoing. Fluent in English (with a score of 8 in IELTS Speaking), I easily connect with people from diverse cultures, fostering open communication and effective teamwork.
+    🧠 My technical expertise spans a wide range of machine learning algorithms and frameworks, including transformers, variational autoencoders, reinforcement learning, and generative adversarial networks. I’m proficient in Python, R, and tools such as PyTorch, TensorFlow/Keras, and AWS. My work is driven by a passion for building robust, scalable AI solutions and conducting applied research in natural language processing and generative models.
 
-    ⚽ Outside the world of tech, I'm passionate about soccer. Beyond the excitement it brings, soccer has instilled in me a spirit of perseverance and resilience.
+    💬 Known for being collaborative and outgoing, I thrive in cross-functional teams and multicultural environments. I am fluent in English and achieved a score of 8 in the IELTS Speaking section, which helps me communicate effectively in global, professional settings.
 
-    🌐 I'm always open to connecting with like-minded professionals, discussing AI, or exploring potential collaborations. Feel free to reach out to me via email at xix110@pitt.edu or Sean65039@gmail.com. You can also connect with me directly on LinkedIn.
-   
+    ⚽ Outside of tech, I’m a passionate soccer player. The game has taught me perseverance, resilience, and the value of strategic teamwork—skills that translate directly to my work in AI and software development.
+
+    🌐 I’m always open to connecting with professionals in the AI and tech communities, exploring research collaborations, or discussing innovative projects. Feel free to reach out via email at xix110@pitt.edu or Sean65039@gmail.com, or connect with me on LinkedIn.
+
 
 content:
   - title: Education
@@ -71,7 +73,7 @@ content:
         sub_title: MS in Information Science 
         caption: August 2023 – May 2025
         quote: >
-          (GPA: 3.95/4.0)
+          (GPA: 3.90/4.0)
         description: | # this will include new lines to allow paragraphs
           My studies at the University of Pittsburgh not only expanded my knowledge but, more importantly, the diverse cultural environment enriched my perspectives, providing insights that extend beyond the confines of textbooks. Interacting with individuals from various cultural backgrounds not only allowed me to approach AI from different angles but also enhanced my collaborative skills. This multicultural exposure has been instrumental in shaping my holistic understanding of artificial intelligence.
       - layout: top-left
@@ -87,10 +89,30 @@ content:
     layout: list
     content:
       - layout: left
+        title: University of Pittsburgh
+        sub_title: Research Assistant
+        caption: November 2024 – May 2025, Pittsburgh, Pennsylvania
+        additional_links:
+        - title: GitHub Repo
+          icon: fab fa-github
+          url: https://github.com/Sean652039/Token-Masking
+        - title: Arxiv Paper
+          icon: fas fa-file-alt
+          url: https://arxiv.org/abs/2505.11746
+        # link: 
+        # link_text: https://arxiv.org/abs/2505.11746
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - X. Xu, J. Bowen, and R. Taheri. Token Masking Improves Transformer-based Text Classification, 2025.
+          - Designed a lightweight token masking mechanism that introduces controlled input perturbations and uses gradient averaging across training steps as a regularization method to encourage more generalized representations.
+          - Developed and validated a forward token-masking framework with adaptive probability tuning (p = 0.0–0.5) for transformer-based text classification, evaluated on multiple tasks in the LinCE multilingual benchmark suite.
+          - Conducted experiments on language identification and sentiment analysis with diverse transformer models (e.g.,Qwen, TinyLlama), finding 0.1 to be an optimal masking rate, with variation across tasks and model sizes.
+      - layout: left
         title: Vosyn Inc.
         sub_title: AI Software Developer Intern
-        caption: May 2024 – August 2024, Chicago, Illinois(Remote)
-        # link: Link to company (optional)
+        caption: May 2024 – August 2024, Chicago, Illinois
+        link: https://vosyn.ai/
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
@@ -101,7 +123,7 @@ content:
       - layout: left
         title: Yunnan Gold Mining Group Co. LTD.
         sub_title: Information Engineer Intern
-        caption: February 2022, August 2022, Kunming, Yunnan(Onsite)
+        caption: February 2022, August 2022, Kunming, Yunnan
         # link: Link to company (optional)
         # quote: >
         #   Short description of the company (optional)
